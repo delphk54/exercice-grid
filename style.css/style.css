@@ -8,7 +8,7 @@ body {
     background-color: aquamarine;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(6,100px)
+    grid-template-columns: repeat(6,40px)
     
 }
 .bloc {
@@ -17,29 +17,38 @@ body {
     padding: 20px;
 }
 .a {
+    grid-area: a;
     grid-column: auto / span 1;
-    grid-row: row;
+    grid-row: row 1;
 }
 .b {
+    grid-area: b;
     grid-column: auto / span 2;
-    grid-row: row;
+    grid-row: row 2;
 }
 .c {
+    grid-area: c;
     grid-column: auto / span 2;
     grid-row: row 3;
 }
 .d {
-    grid-column: auto / span 2;
+    grid-area: d;
+    grid-column: auto / span 3;
+    
 }
 .e {
-    grid-column: auto / span 2;
+    grid-area: e;
+    grid-column: auto / span 4;
 }
 .f {
+    grid-area: f;
     grid-column: auto / span 2;
 }
 .g {
+    grid-area: g;
     grid-column: auto / span 2;
 }
 .h {
+    grid-area: f;
     grid-column: auto / span 2;
 }

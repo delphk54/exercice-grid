@@ -8,13 +8,38 @@ body {
     background-color: aquamarine;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(6,40px)
+    grid-template-columns: repeat(6,100px)
     
-
 }
 .bloc {
     background-color: coral;
+    font-size: 100%;
+    padding: 20px;
 }
 .a {
-    grid-column: auto;
+    grid-column: auto / span 1;
+    grid-row: row;
+}
+.b {
+    grid-column: auto / span 2;
+    grid-row: row;
+}
+.c {
+    grid-column: auto / span 2;
+    grid-row: row 3;
+}
+.d {
+    grid-column: auto / span 2;
+}
+.e {
+    grid-column: auto / span 2;
+}
+.f {
+    grid-column: auto / span 2;
+}
+.g {
+    grid-column: auto / span 2;
+}
+.h {
+    grid-column: auto / span 2;
 }
